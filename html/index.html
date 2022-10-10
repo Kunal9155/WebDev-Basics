@@ -8,13 +8,14 @@
 </head>
 <body>
 
-  
-    
+<!-- Tags comes in pair -->
+
 
     <!-- paragraph tag -->
     <p>This is a paragraph.</p>
     <p>This is another paragraph.</p>
-
+  
+   
 <!-- <br> === for line break -->
 <!-- <hr> === for horizontal line -->
 
@@ -29,13 +30,14 @@ HTML headings are defined with the <h1> to <h6> tags. -->
 
   <!-- div tag or division tag is used to make blocks or divisions in the document. -->
   <div> This is div block </div>
- 
-   
+
   <!-- span is a container for inline content -->
   <span> This is span block </span>
+  
 
 <!-- HTML Links - Hyperlinks -->
 <a href="https://manavrachna.edu.in/student-erp/" target="_blank">Manav Rachna student-erp</a> <br>
+
 
 <!-- image in html -->
 <img src="image1.jpg" width="500px" height="400px" alt="Tim Hortons "> <br> <br>
@@ -51,17 +53,19 @@ HTML headings are defined with the <h1> to <h6> tags. -->
 
 <p>My favorite color is <del>blue</del> red.</p>
 
-<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
-
 <p>This is <sub>subscripted</sub> text.</p>
+<p>log <sub>2</sub></p>
 
 <p>This is <sup>superscripted</sup> text.</p>
+<p> 2 <sup>2</sup></p>
+
 
 <!-- table in html -->
 <table border ="1" style="width:50%">
     <tr>
       <th>Company</th>
       <th>Contact</th>
+      <!-- <th colspan="2">name</th> -->
       <th>Country</th>
     </tr>
     <tr>
@@ -77,43 +81,9 @@ HTML headings are defined with the <h1> to <h6> tags. -->
   </table>
 <br>
 
-<!-- HTML Table Colspan  -->
-  <table border="2">
-    <tr>
-      <th colspan="2">Name</th>
-      <th>Age</th>
-    </tr>
-    <tr>
-      <td>Jill</td>
-      <td>Smith</td>
-      <td>43</td>
-    </tr>
-    <tr>
-      <td>Eve</td>
-      <td>Jackson</td>
-      <td>57</td>
-    </tr>
-  </table>
-  <br>
-
-
-  <!-- HTML Table Rowspan -->
-  <table border="2">
-    <tr>
-      <th>Name</th>
-      <td>Jill</td>
-    </tr>
-    <tr>
-      <th rowspan="2">Phone</th>
-      <td>555-1234</td>
-    </tr>
-    <tr>
-      <td>555-8745</td>
-  </tr>
-  </table>
 
   <!-- List  -->
-  <ul style="list-style-type:square;">
+  <ul style="list-style-type:disc;">
     <li>Coffee</li>
     <li>Tea</li>
     <li>Milk</li>
@@ -126,7 +96,7 @@ HTML headings are defined with the <h1> to <h6> tags. -->
     <li>Milk</li>
   </ol>
 
-  <ol type="i">
+  <ol type="A">
     <li>Coffee</li>
     <ul>
         <li>one</li>
@@ -143,7 +113,9 @@ HTML headings are defined with the <h1> to <h6> tags. -->
     <label for="fname" >First name:</label><br>
     <input type="text" placeholder="first name" name="fname"><br>
     <label for="lname">Last name:</label><br>
-    <input type="text" placeholder="last name"  name="lname">
+    <input type="text" placeholder="last name"  name="lname"> <br>
+    <label for="password">Password :</label><br>
+    <input type="password" placeholder="****"  name="password">
 
     <!-- **If the name attribute is omitted, the value of the input field will not be sent at all.*** -->
 
