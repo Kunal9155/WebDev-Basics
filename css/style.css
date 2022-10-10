@@ -1,0 +1,72 @@
+/* syntax */
+
+/* selector{
+    property : value;
+} */
+
+span {
+  color: red;
+  font-size: 26px;
+}
+
+/* class selector  */
+/* all <p> elements on the page will be center-aligned, with a red text color:  */
+p {
+  color: brown;
+}
+
+/* id selector
+id selector is used to select one unique element */
+/* To select an element with a specific id, write a hash (#) character, followed by the id of the element. */
+#para1 {
+  color: rgb(17, 0, 255);
+}
+
+/* class Selector
+The class selector selects HTML elements with a specific class attribute.
+To select elements with a specific class, write a period (.) character, followed by the class name. */
+.center {
+  text-align: center;
+  color: red;
+}
+
+.border {
+  width: 20%;
+  height: 20%;
+  background-color: aqua;
+  border: 3px solid red;
+  border-radius: 15px;
+
+  /* text-align: center; */
+  /* text-align: left; */
+  /* text-align: right; */
+
+ 
+
+  /* margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px; */
+
+  /* padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px; */
+
+
+}
+
+/* #box-model {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  } */
+
+  img {
+    width: 30%;
+    height: 30%;
+    /* float: left; */
+    float: right;
+    /* float: none; */
+  }
